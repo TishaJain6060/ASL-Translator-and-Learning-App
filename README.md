@@ -6,11 +6,11 @@ With rapid rise in technology, there has been an increasing sensitivty placed up
 
 # Steps involved
 
-Capturing different hand sign images and segregating into training and testing dataset to train the model.
-Each image received a region of interest (ROI) which contained the hand sign. To this, I applied Gaussian Blur to extract the image features.
-Used Convolutional Neural Network (CNN) to build my model.
-Converted input images to Grayscale and applied Gaussian Blur for prepreocessing the data.
-Trained the model according to the different assigned values of each hand sign.
+* Capturing different hand sign images and segregating into training and testing dataset to train the model.
+* Each image received a region of interest (ROI) which contained the hand sign. To this, I applied Gaussian Blur to extract the image features.
+* Used Convolutional Neural Network (CNN) to build my model.
+* Converted input images to Grayscale and applied Gaussian Blur for prepreocessing the data.
+* Trained the model according to the different assigned values of each hand sign.
 
 # Installing necessary libraries
 
