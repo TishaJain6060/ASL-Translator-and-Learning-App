@@ -1,30 +1,62 @@
-import os
-import string
 
-# Creating the directory Structure
+<!DOCTYPE html>
 
-if not os.path.exists("dataSet"):
-    os.makedirs("dataSet")
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, , shrink-to-fit=no">
 
-if not os.path.exists("dataSet/trainingData"):
-    os.makedirs("dataSet/trainingData")
 
-if not os.path.exists("dataSet/testingData"):
-    os.makedirs("dataSet/testingData")
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-# Making folder  0 (i.e blank) in the training and testing data folders respectively
-for i in range(0):
-    if not os.path.exists("dataSet/trainingData/" + str(i)):
-        os.makedirs("dataSet/trainingData/" + str(i))
 
-    if not os.path.exists("dataSet/testingData/" + str(i)):
-        os.makedirs("dataSet/testingData/" + str(i))
+        <title>CopyNCheck</title>
 
-# Making Folders from A to Z in the training and testing data folders respectively
+        <style>
+        body{
+           height: 500px;
 
-for i in string.ascii_uppercase:
-    if not os.path.exists("dataSet/trainingData/" + i):
-        os.makedirs("dataSet/trainingData/" + i)
-    
-    if not os.path.exists("dataSet/testingData/" + i):
-        os.makedirs("dataSet/testingData/" + i)
+            /*background: linear-gradient(145deg, #3931f4, #8874fc,#5a26ff);*/
+            /* background-image: url({{url_for('static', filename='plag.jpg')}}); */
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            }
+
+        h1{
+          text-align:center;
+        }
+        </style>
+
+    </head>
+    <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link active" href="/check">Similarity checks<span class="sr-only">(current)</span></a>
+      <a class="nav-link active" href="/search">Web checks<span class="sr-only">(current)</span></a>
+    </div>
+  </div>
+</nav>
+
+
+<div>
+<h1 style="font-family: Times New Roman; padding-top:10px;font-size: 90px;"> <u>CopyNCheck</u></h1>
+<p style="border:3px; border-style:solid; border-color:#000000; padding: 1em; margin-right: 500px; margin-left: 20px; margin-top: 40px;">
+  In our tech-savvy world, plagiarism has become a common practice. It's not uncommon to find acts of plagiarism in places of learning (schools, universities,etc)
+  or during competitions and contests. Moreover, owing to the rise in mass media and influx of knowledge all around us, be it the internet, social media or news
+  it is often that people may unknowingly pass off someone else's original ideas as their own.
+ <br>While there are many plagiarism checking websites available online, they often cost money, or greatly limit their usage, a hinderence to many.
+ <br>Hence, it is my aim to attempt and build a similar anti-plagiarism checker that allows users to gauge their work against other submissions,
+ or the internet for free. <br> -Tisha</p>
+</div>
+
+
+ </body>
+</html>
