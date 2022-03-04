@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>b.fdf19d98-8b75-11ec-90a0-99204210fa48.jpg</filename>
+	<path>C:\Users\MOHIT\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\b.fdf19d98-8b75-11ec-90a0-99204210fa48.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>b</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>55</xmin>
+			<ymin>216</ymin>
+			<xmax>241</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

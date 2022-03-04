@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>l.29669e40-8b76-11ec-838b-99204210fa48.jpg</filename>
+	<path>C:\Users\MOHIT\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\l.29669e40-8b76-11ec-838b-99204210fa48.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>L</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>227</ymin>
+			<xmax>254</xmax>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+</annotation>

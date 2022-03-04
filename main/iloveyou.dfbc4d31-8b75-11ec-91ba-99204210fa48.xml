@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>iloveyou.dfbc4d31-8b75-11ec-91ba-99204210fa48.jpg</filename>
+	<path>C:\Users\MOHIT\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\iloveyou.dfbc4d31-8b75-11ec-91ba-99204210fa48.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>I Love You</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>50</xmin>
+			<ymin>221</ymin>
+			<xmax>276</xmax>
+			<ymax>477</ymax>
+		</bndbox>
+	</object>
+</annotation>
