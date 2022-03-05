@@ -45,7 +45,7 @@ PIL -> pip install Pillow
 The app can respond to all 26 letters of the English alphabet and some common words such as Mother, Father, Friend, Hello, Thank you, Yes, No, I Love You, Hungry and so on.
 
 # User Manual
-To be inserted
+https://docs.google.com/presentation/d/1n_zhcneNhtt2ekZNR_pcutjPa7Dk3Apx7K06kcdgHf0/edit#slide=id.gf2d4f983a1_0_1
 
 # Youtube video
 for complete demo, check out: https://www.youtube.com/watch?v=y31tFS5UqPU
